@@ -1,0 +1,126 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.ss-wrapper {
+    position: fixed;
+    z-index: 9999;
+    background: white;
+    width: 240px;
+    height: 290px;
+    transition: all 550ms;
+}
+
+.first-wrapper-top-left,.second-wrapper-top-left,.third-wrapper-top-left {
+    top: 46px;
+    left: -240px;
+}
+
+.first-wrapper-bottom-left,.second-wrapper-bottom-left,.third-wrapper-bottom-left {
+    bottom: 46px;
+    left: -240px;
+}
+
+.first-wrapper-top-right,.second-wrapper-top-right,.third-wrapper-top-right {
+    top: 46px;
+    right: -240px;
+}
+
+.first-wrapper-bottom-right,.second-wrapper-bottom-right,.third-wrapper-bottom-right {
+    bottom: 46px;
+    right: -240px;
+}
+
+.ss-icon {
+    position: absolute;
+    padding-left: 37px;
+    padding-bottom: 40px;
+}
+
+.facebook-icon {
+    background: url(../image/facebook_sidebar.png) no-repeat;
+}
+
+.first-icon-top-left {
+    top: -1px;
+    right: -37px;
+}
+
+.first-icon-bottom-left {
+    bottom: -1px;
+    right: -37px;
+}
+
+.first-icon-top-right {
+    top: -1px;
+    left: -37px;
+}
+
+.first-icon-bottom-right {
+    bottom: -1px;
+    left: -37px;
+}
+
+.google-plus-icon {
+    background: url(../image/google_plus_sidebar.jpg) no-repeat;
+}
+
+.second-icon-top-left {
+    top: 39px;
+    right: -37px;
+}
+
+.second-icon-bottom-left {
+    bottom: 39px;
+    right: -37px;
+}
+
+.second-icon-top-right {
+    top: 39px;
+    left: -37px;
+}
+
+.second-icon-bottom-right {
+    bottom: 39px;
+    left: -37px;
+}
+
+.twitter-icon {
+    background: url(../image/twitter_sidebar.png) no-repeat;
+}
+
+.third-icon-top-left {
+    top: 79px;
+    right: -37px;
+}
+
+.third-icon-bottom-left {
+    bottom: 79px;
+    right: -37px;
+}
+
+.third-icon-top-right {
+    top: 79px;
+    left: -37px;
+}
+
+.third-icon-bottom-right {
+    bottom: 79px;
+    left: -37px;
+}
+
+div.first-wrapper-top-left.open,div.first-wrapper-bottom-left.open,div.second-wrapper-top-left.open,div.second-wrapper-bottom-left.open,div.third-wrapper-top-left.open,div.third-wrapper-bottom-left.open {
+    left: 0;
+}
+
+div.first-wrapper-top-right.open,div.first-wrapper-bottom-right.open,div.second-wrapper-top-right.open,div.second-wrapper-bottom-right.open,div.third-wrapper-top-right.open,div.third-wrapper-bottom-right.open {
+    right: 0;
+}
+
+
+@media (max-width: 900px) {
+    .first-wrapper,.second-wrapper,.third-wrapper {
+        display:none;
+    }
+}
